@@ -28,6 +28,12 @@ The above data shows that the coils all fail to meet design specifications by ex
 
 ![ttest_lot3](car_challenge/images/ttest_lot3.png)
 
-- The p value for lot 3 is 0.1589, which is large enough to not reject the null, so its mean is statistically similar to the over all population of coils. 
+- The p value for lot 3 is 0.1589, which is large enough to not reject the null, so its mean is statistically similar to the overall population of coils. 
 
+## Study Design: MechaCar vs Competition
+To compare the performance of the MechaCar against vehicles from other manufacturers in snowy conditions:
+- Evaluate a metric like mpg in cold and snowy conditions of a variety of competitors.
+- Null hypothesis: the MechaCar performs similarly or has similar metrics to other vehicles in these conditions. 
+- Perform a series of two sample t tests to compare the MechaCar against the overall population as well as each included competing vehicle. 
+- The Miles per Gallon of many individual cars of competing vehicles would need to be evaluated in similar conditions. Something along the lines of 50 individual cars per competing model to have similar sample size to the previous tests. 
 
