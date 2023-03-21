@@ -34,6 +34,6 @@ The above data shows that the coils all fail to meet design specifications by ex
 To compare the performance of the MechaCar against vehicles from other manufacturers in snowy conditions:
 - Evaluate a metric like mpg in cold and snowy conditions of a variety of competitors.
 - Null hypothesis: the MechaCar performs similarly or has similar metrics to other vehicles in these conditions. 
-- Perform a series of two sample t tests to compare the MechaCar against the overall population as well as each included competing vehicle. 
+- Perform a series of two sample t tests to compare the MechaCar against the overall population as well as each included competing vehicle. The two sample t test answers the question of is there a statistical difference between the means of two samples? which is what this study wants to answer multiple times. 
 - The Miles per Gallon of many individual cars of competing vehicles would need to be evaluated in similar conditions. Something along the lines of 50 individual cars per competing model to have similar sample size to the previous tests. 
 
