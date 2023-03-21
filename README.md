@@ -15,3 +15,19 @@ As shown from the linear model's Pr(>|t|) values, Vehicle Length and Ground Clea
 
 The above data shows that the coils all fail to meet design specifications by exceeding 100 pounds per square inch (PSI), and this is true for both all lots in total and each lot individually. 
 
+## T-Tests on Suspension Coils:
+
+![ttest_pop](car_challenge/images/ttest_pop.png)
+- The t test of the total population has a p value of 1, as expected, as the data and means are the same.
+
+![ttest_lot1](car_challenge/images/ttest_lot1.png)
+- The p value for lot 1 is 0.0000000000168, which is small enough to reject the null and shows that their mean is statistically different from the overall population of coils. 
+
+![ttest_lot2](car_challenge/images/ttest_lot2.png)
+- The p value for lot 2 is 0.0005911, which is small enough to reject the null and shows that their mean is statistically different from the overall population of coils. 
+
+![ttest_lot3](car_challenge/images/ttest_lot3.png)
+
+- The p value for lot 3 is 0.1589, which is large enough to not reject the null, so its mean is statistically similar to the over all population of coils. 
+
+

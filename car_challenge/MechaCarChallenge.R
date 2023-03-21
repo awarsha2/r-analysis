@@ -9,3 +9,7 @@ lot_summary <- Suspension_coil %>%  group_by(Manufacturing_Lot) %>% summarize(Me
 print(total_summary)
 print(lot_summary)
 
+t.test(Suspension_coil$PSI, mu=mean(Suspension_coil$PSI))
+t.test(Suspension_coil[Suspension_coil$Manufacturing_Lot == 'Lot1',]$PSI, mu=mean(Suspension_coil$PSI))
+t.test(Suspension_coil[Suspension_coil$Manufacturing_Lot == 'Lot2',]$PSI, mu=mean(Suspension_coil$PSI))
+t.test(Suspension_coil[Suspension_coil$Manufacturing_Lot == 'Lot3',]$PSI, mu=mean(Suspension_coil$PSI))
